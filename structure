@@ -1,0 +1,74 @@
+pbb-app/
+│
+├── controllers/
+│   ├── authController.js
+│   └── homeController.js
+│
+├── models/
+│   └── User.js
+│
+├── public/
+│   └── css/
+│       └── style.css
+│   └── js/
+│       └── script.js
+│   └── img/
+│       └── logo.png
+│
+├── views/
+│   ├── layouts/
+│   │   └── mainLayout.ejs
+│   ├── auth/
+│   │   └── login.ejs
+│   │   └── signup.ejs
+│   ├── home/
+│   │   └── index.ejs
+│   └── partials/
+│       └── header.ejs
+│       └── footer.ejs
+│
+├── app.js
+├── db.js
+├── package.json
+└── README.md
+
+
+
+
+
+For example I am the owner - owner dashboard - bookings list - accept or not
+For example I am the customer - open website - putting date you want to book - see available resort according to date inputted - resort list - book
+                                             - resort list - book
+
+After customer book - owner reieve it sms/email/system notification - 
+After owner accpet - same thing
+Login - 
+
+
+  +-----------------------------+
+  |          Controller         |
+  +-----------------------------+
+  | - Handle Requests           |
+  | - Data Validation           |
+  | - Interaction with Model    |
+  +-----------------------------+
+                |
+                |      
+                v
+  +-----------------------------+
+  |           Model             |
+  +-----------------------------+
+  | - User Data                 |
+  | - Validation Logic          |
+  | - Database Interaction      |
+  +-----------------------------+
+                |
+                |      
+                v
+  +-----------------------------+
+  |            View             |
+  +-----------------------------+
+  | - Sign-up Form              |
+  | - HTML/CSS/JS files         |
+  | - UI Rendering              |
+  +-----------------------------+
